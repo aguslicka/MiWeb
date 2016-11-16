@@ -7,7 +7,7 @@
 
 body {
   margin: 0 auto;
-  color:#f0f0f0;
+  color:#FA58F4;
   background:#CECEF6;
   font-family:'Open Sans',sans-serif;
 }
@@ -92,7 +92,7 @@ input[type="text"]{
   padding:4%;
   font-family:'Open Sans',sans-serif;
   font-size:95%;
-  color:#555;
+  color:#FA58F4;
 }
 select{
   width:100%;
@@ -102,7 +102,8 @@ select{
   padding:4%;
   font-family:'Open Sans',sans-serif;
   font-size:95%;
-  color:#555;
+  color:#FA58F4
+  ;
 }
 
 
@@ -160,7 +161,7 @@ select{
   padding:10px;
   text-align:center;
   text-decoration:none;
-  color:#fff;
+  color:#FA58F4;
   cursor:pointer;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
@@ -223,7 +224,7 @@ position: absolute;
   padding:10px;
   text-align:center;
   text-decoration:none;
-  color:#fff;
+  color:#FA58F4;
   cursor:pointer;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
@@ -246,7 +247,7 @@ position: absolute;
   padding:6px;
   text-align:center;
   text-decoration:none;
-  color:#fff;
+  color:#FA58F4;
   cursor:pointer;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
@@ -268,7 +269,7 @@ position: absolute;
   padding:6px;
   text-align:center;
   text-decoration:none;
-  color:#fff;
+  color:#FA58F4;
   cursor:pointer;
   -moz-border-radius:7px;
   -webkit-border-radius:7px;
