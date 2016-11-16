@@ -1,0 +1,30 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\Alumno\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] CLI Version:  3.1.0
+[debug] Platform:     win32
+[debug] Node Version: v6.5.0
+[debug] Time:         Wed Nov 16 2016 19:20:03 GMT-0300 (Hora estándar de Argentina)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/juegos-b9bf7 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/juegos-b9bf7/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'juegos-b9bf7'...
+[info] 
+[info] i  deploying database, hosting
+[info] +  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/juegos-b9bf7/uploads/-KWjDRZTCaUo3CUdmeWX?fileCount=42&message= 
+[debug] <<< HTTP RESPONSE 200
+[info] +  hosting: public folder uploaded successfully
+[info] +  hosting: 42 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/juegos-b9bf7/releases
+[debug] Error: read ECONNRESET
+    at exports._errnoException (util.js:1026:11)
+    at TLSWrap.onread (net.js:564:26)
+[error] 
+[error] Error: Server Error. read ECONNRESET
