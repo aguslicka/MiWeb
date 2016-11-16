@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<link rel="stylesheet" type="text/css" href="animacion.css">
+		<!--final de Estilos-->
+		<script src="https://www.gstatic.com/firebasejs/3.5.1/firebase.js"></script>
+		<script>  // Initialize Firebase
+  			 var config = {
+    apiKey: "AIzaSyBXVNddTipsa2BuJfxUQl74xNYtrcAMPQw",
+    authDomain: "juegos-b9bf7.firebaseapp.com",
+    databaseURL: "https://juegos-b9bf7.firebaseio.com",
+    storageBucket: "juegos-b9bf7.appspot.com",
+    messagingSenderId: "28715019096"
+  };
+  firebase.initializeApp(config);
+</script>
+		<script src="angular.min.js"</script>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="Agilidad.js"></script>
+        <!--Final de Lógica-Programación -->
+		
+
+		</head>
+	<body ng-app="Agilidad" ng-controller="controlAgilidad">
+		<div class="CajaUno animated bounceInDown">
+			
+		
+		
+			<form id="FormIngreso"> 
+			<input type="text"  placeholder="Numero 1" ng-model="datos.Numero1" id="Numero1" readonly>
+			<input type="text"  placeholder="Signo" ng-model="datos.Signo" id="Signo" readonly>
+			<input type="text"  placeholder="Numero 2" ng-model="datos.Numero2" id="Numero 2" readonly>
+			<input type="text"  placeholder="Respuesta" ng-model="datos.Respuesta" id="Respuesta">
+			<center>
+			<button  class="MiBotonUTNMenu" ng-click="Aceptar()" >Aceptar</button></center>
+				<center>
+				<br>
+					<br>
+					<br>
+					<img src="imagenes/interrogacion.jpg" >
+					<br>
+					<br>
+					<br>
+					<button  class="MiBotonUTNMenu" title="Volver" onclick="location.href='menu.html'" >Volver<button>
+				</center>
+				
+			</form>
+			
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			
+
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Como funciona:</h2>
+			
+				<h3>
+						El programa genera un numeros y signos al azar mediante un controlador.
+						</br>Al comenzar el juego se muestran los resultados, el objetivo es resolver la cuenta lo mas rapido posible.
+						</br>SI ya tardaste mucho por leer esto, podes tener nuevas oportunidades si recargas la pagina, ya que de esa manera se generan nuevos numeros y el tiempo comienza desde 0.
+
+
+				</h3>
+			
+			
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			
+		</div>
+	</body>
+</html>
